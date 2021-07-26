@@ -175,6 +175,7 @@
   
   .grid-wrapper:hover .port-image {
     opacity: 0.1;
+    box-shadow: none;
     border: 1px solid black;
   }
   
@@ -188,7 +189,7 @@
   
   .port-image {
     width: 100%;
-    border: 1px solid black;
+    box-shadow: 1px 1px 1px;
     position: relative;
   }
   
@@ -251,7 +252,7 @@
     height: 25%;
     overflow: hidden;
     opacity: 1;
-    border: 1px solid black;
+    box-shadow: 1px 1px 1px;
   }
   
   .resume-img {
