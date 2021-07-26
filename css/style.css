@@ -189,7 +189,7 @@
   
   .port-image {
     width: 100%;
-    box-shadow: 1px 1px 3px 5px rbga(0,0,0,0.2);
+    box-shadow: 2px 2px 3px 5px rbga(0,0,0,0.5);
     position: relative;
   }
   
@@ -253,7 +253,7 @@
     height: 25%;
     overflow: hidden;
     opacity: 1;
-    box-shadow: 1px 1px 3px 5px rbga(0,0,0,0.2);
+    box-shadow: 2px 2px 3px 5px rbga(0,0,0,0.5);
   }
   
   .resume-img {
@@ -359,7 +359,7 @@
       padding: 2rem;
     }
     #welcome-section h1 {
-      margin-top: 2rem;
+      margin-top: 1rem;
       font-size: 3rem;
     }
     .welcome-box {
@@ -367,8 +367,12 @@
         height: 20%;
     }       
     .image-text {
-      font-size: 5rem;
+      font-size: 1rem;
     }
      .contact-img {
-         width: 100%;
+         width: 150%;
   }
+     .contact-box {
+          padding: 3rem;
+             }
+}
