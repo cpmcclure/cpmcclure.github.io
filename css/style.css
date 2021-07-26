@@ -189,7 +189,7 @@
   
   .port-image {
     width: 100%;
-    box-shadow: 2px 2px 5px 5px;
+    box-shadow: 2px 2px 5px 5px rbga(0,0,0,0.1);
     position: relative;
   }
   
@@ -252,7 +252,7 @@
     height: 25%;
     overflow: hidden;
     opacity: 1;
-    box-shadow: 2px 2px 5px 5px;
+    box-shadow: 2px 2px 5px 5px rbga(0,0,0,0.1);
   }
   
   .resume-img {
