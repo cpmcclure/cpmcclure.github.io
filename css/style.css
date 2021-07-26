@@ -188,7 +188,7 @@
   
   .port-image {
     width: 100%;
-
+    border: 1px solid black;
     position: relative;
   }
   
@@ -251,6 +251,7 @@
     height: 25%;
     overflow: hidden;
     opacity: 1;
+    border: 1px solid black;
   }
   
   .resume-img {
