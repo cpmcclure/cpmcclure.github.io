@@ -160,6 +160,12 @@
     overflow: hidden;
     padding: 5rem;
   }
+
+@media (max-width: 480px) {
+    .welcome-box {
+    height: 10%;
+    }
+}
   
   .welcome-image {
     opacity: .2;
