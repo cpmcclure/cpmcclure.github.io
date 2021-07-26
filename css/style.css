@@ -310,7 +310,7 @@
     } 
   }
   
-  .contact-img{
+  .contact-img {
     width: 50%;
     margin: auto;
     padding: 1rem;
@@ -365,4 +365,6 @@
     .image-text {
       font-size: 5rem;
     }
+     .contact-img {
+         width: 100%;
   }
