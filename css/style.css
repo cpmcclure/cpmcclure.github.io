@@ -244,7 +244,7 @@
     opacity: 1;
   }
   
-  .resume-wrapper{
+  .resume-wrapper {
     position: absolute;
     display: flex;
     align-items: center;
@@ -375,7 +375,8 @@
      .contact-img {
          width: 100%;
   }
-     .contact-box {
-          padding: 1rem;
+     .resume-wrapper {
+         max-width: 80%;
+         height: 35%;
              }
 }
