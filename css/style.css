@@ -189,7 +189,7 @@
   
   .port-image {
     width: 100%;
-    box-shadow: 2px 2px 3px 5px rbga(0,0,0,0.5);
+    box-shadow: 1px 1px 2px 10px;
     position: relative;
   }
   
@@ -253,7 +253,7 @@
     height: 25%;
     overflow: hidden;
     opacity: 1;
-    box-shadow: 2px 2px 3px 5px rbga(0,0,0,0.5);
+    box-shadow: 1px 1px 2px 10px;
   }
   
   .resume-img {
@@ -370,9 +370,9 @@
       font-size: 1rem;
     }
      .contact-img {
-         width: 150%;
+         width: 100%;
   }
      .contact-box {
-          padding: 3rem;
+          padding: 1rem;
              }
 }
