@@ -307,12 +307,6 @@
     }
   }
   
-  @media (max-width: 700px) {
-    .contact-box h4 {
-      font-size: 1rem;
-    } 
-  }
-  
   .contact-img {
     width: 50%;
     margin: auto;
