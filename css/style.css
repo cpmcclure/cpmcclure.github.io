@@ -366,6 +366,9 @@
     .resume-text {
       font-size: 2rem;       
              }
+     #contact {
+         width: 60%;
+             }
      .contact-img {
          width: 100%;
   }
