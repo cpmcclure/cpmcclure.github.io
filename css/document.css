@@ -2,12 +2,14 @@
 
 #document {
     display: flex;
+    flex-direction: column;
     margin: 0 auto;
     justify-content: center;
 }
 
 .document-head {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     max-width: 80%;
     padding-bottom: 4rem;
@@ -23,6 +25,7 @@
 
 .document-body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     max-width: 75%;
     padding: 3rem;
