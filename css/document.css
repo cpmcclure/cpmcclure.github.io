@@ -37,3 +37,7 @@
 .document-body h2 {
     padding-bottom: 2rem;
 }
+
+.ebook {
+    max-width: 80%;
+}
