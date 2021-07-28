@@ -62,8 +62,8 @@
 	document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
 		var adobeDCView = new AdobeDC.View({clientId: "d21eeefddad3474b9384a9d5d5de2e3e", divId: "adobe-dc-view"});
 		adobeDCView.previewFile({
-			content:{promise: "<FILE_BLOB_PROMISE>"},
-			metaData:{fileName: "<FILE_NAME>"}
+			content:{promise: "../files/boost-ebook-edit.pdf"},
+			metaData:{fileName: "Edited Boost E-book"}
 		}, {embedMode: "SIZED_CONTAINER"});
 	});
 </script>
@@ -76,8 +76,8 @@
 	document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
 		var adobeDCView = new AdobeDC.View({clientId: "d21eeefddad3474b9384a9d5d5de2e3e", divId: "adobe-dc-view"});
 		adobeDCView.previewFile({
-			content:{promise: "<FILE_BLOB_PROMISE>"},
-			metaData:{fileName: "<FILE_NAME>"}
+			content:{promise: "../files/boost-ebook-original.pdf"},
+			metaData:{fileName: "Original Boost E-book"}
 		}, {embedMode: "SIZED_CONTAINER"});
 	});
 </script>
