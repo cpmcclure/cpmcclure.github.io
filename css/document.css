@@ -1,0 +1,33 @@
+/* Document */
+
+#document {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.document-head {
+    display: flex;
+    justify-content: center;
+    max-width: 80%;
+    padding-bottom: 4rem;
+}
+
+.document-head h1 {
+    padding-bottom: 2rem;
+}
+
+.document-head p {
+    max-width: 80%;
+}
+
+.document-body {
+    display: flex;
+    justify-content: center;
+    max-width: 75%;
+    padding: 3rem;
+}
+
+.document-body h2 {
+    padding-bottom: 2rem;
+}
