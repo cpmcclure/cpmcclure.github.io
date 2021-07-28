@@ -21,7 +21,8 @@
 }
 
 .document-head p {
-    max-width: 80%;
+    max-width: 60%;
+    margin: 0 auto;
 }
 
 .document-body {
@@ -29,7 +30,7 @@
     flex-direction: column;
     justify-content: center;
     margin: 0 auto;
-    max-width: 75%;
+    max-width: 100%;
     padding: 3rem;
 }
 
