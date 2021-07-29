@@ -44,11 +44,20 @@
     height: 400px;
 }
 
+.covid-poster {
+    width: 600px;
+    height: 900px;
+}
+
 @media screen and (min-width: 320px)
          and (max-width: 760px){
    .ebook {
        width: 320px;
        height: 190px;
+             }
+   .covid-poster {
+       width: 320px;
+       height: 480px;
              }
    .document-head p {
        max-width: 80%;
