@@ -56,15 +56,31 @@
       </div>
       <div class="document-body">
           <h2>Edited E-Book</h2>
-	      <div id="edit" class="ebook"></div>
-       <script src="../PDFObject-master/pdfobject.js"></script>
-<script>PDFObject.embed("../files/boost-ebook-edit.pdf", "#edit");</script>
+	      <div id="adobe-dc1" class="ebook"></div>
+<script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+<script type="text/javascript">
+	document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
+		var adobeDCView = new AdobeDC.View({clientId: "d73e44ce20c247459a31ea2057899d4c", divId: "adobe-dc1"});
+		adobeDCView.previewFile({
+			content:{location: {url: "../files/boost-ebook-edit.pdf"}},
+			metaData:{fileName: "Boost E-book Edit.pdf"}
+		}, {embedMode: "SIZED_CONTAINER"});
+	});
+</script>
       </div>
       <div class="document-body">
         <h2>Original E-Book</h2>
-        <div id="original" class="ebook"></div>
-       <script src="../PDFObject-master/pdfobject.js"></script>
-<script>PDFObject.embed("../files/boost-ebook-original.pdf", "#original");</script>
+	      <div id="adobe-dc2" class="ebook"></div>
+<script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+<script type="text/javascript">
+	document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
+		var adobeDCView = new AdobeDC.View({clientId: "d73e44ce20c247459a31ea2057899d4c", divId: "adobe-dc2"});
+		adobeDCView.previewFile({
+			content:{location: {url: "../files/boost-ebook-original.pdf"}},
+			metaData:{fileName: "Boost E-book Original.pdf"}
+		}, {embedMode: "SIZED_CONTAINER"});
+	});
+</script>
       </div>
   </section>
 
