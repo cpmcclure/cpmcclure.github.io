@@ -1,0 +1,77 @@
+<!-- HEADER -->
+
+<header>
+
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
+    <link href="../css/document.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap" rel="stylesheet">
+  
+    <title>Chris McClure | COVID Poster</title>
+    <meta name="viewport" content="width=device-width">
+    
+  </header>
+  
+  <!--- END HEADER -->
+  
+  <!-- NAV BAR -->
+  <nav class="navigation">
+    <div class="nav-right">
+      <ul class="nav-list">
+        <li  class="nav-item"><a href="../index.html">Home</a></li>
+        <li  class="nav-item"><a href=../index.html#portfolio>Portfolio</a></li>
+        <li  class="nav-item"><a href="../index.html#resume">Resume</a></li>
+        <li  class="nav-item"><a href="../index.html#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  
+  <!-- END NAV BAR -->
+  
+  <!-- WELCOME SECTION -->
+  
+  <section id="welcome-section">
+    <div class="welcome-box"><img class="welcome-image" src="../files/cattails.jpg" alt="">
+    </div>
+    <h1>Chris McClure</h1>
+    <p>Technical Writer</p>
+  </section>
+  
+  <!-- END WELCOME SECTION -->
+
+
+  <!-- DOCUMENT SECTION -->
+
+  <section id="document">
+      <div class="document-head">
+          <h1>COVID Poster</h1>
+          <p>A poster created in Canva, using the guidelines presented in Section 7 of
+          <a href="https://gov.nv.gov/News/Emergency_Orders/2020/2020-06-24_-COVID-19_Declaration_of_Emergency_Directive_024_(Attachments)/">
+          State of Nevada Directive 024</a>. The guidelines are simplified for shoppers to quickly and easily read and understand.</p>
+      </div>
+      <div class="document-body">
+	      <div id="adobe-dc1" class="covid-poster"></div>
+<script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+<script type="text/javascript">
+	document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
+		var adobeDCView = new AdobeDC.View({clientId: "d73e44ce20c247459a31ea2057899d4c", divId: "adobe-dc1"});
+		adobeDCView.previewFile({
+			content:{location: {url: "../files/covid-poster.pdf"}},
+			metaData:{fileName: "COVID Poster.pdf"}
+		}, {embedMode: "SIZED_CONTAINER"});
+	});
+</script>
+      </div>
+
+  <!-- END DOCUMENT SECTION -->
+
+  <!-- FOOTER -->
+  
+    <footer id="footer">
+     <p class="footer-text">created by Chris McClure</p>
+    </footer>
