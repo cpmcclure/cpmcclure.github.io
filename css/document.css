@@ -46,17 +46,17 @@
 
 .covid-poster {
     width: 600px;
-    height: 860px;
+    height: 840px;
 }
 
 .salesforce-guide {
-    width: 600px;
-    height: 860px;
+    width: 700px;
+    height: 906px;
 }
 
 .resume {
-    width: 600px;
-    height: 860px;
+    width: 700px;
+    height: 906px;
 }
 
 @media screen and (min-width: 320px)
@@ -67,15 +67,15 @@
              }
    .covid-poster {
        width: 320px;
-       height: 450px;
+       height: 430px;
              }
    .salesforce-guide {
        width: 320px;
-       height: 450px;
+       height: 380px;
              }
    .resume {
         width: 320px;
-        height: 450px;
+        height: 380px;
 }
    .document-head p {
        max-width: 80%;
